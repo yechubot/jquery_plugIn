@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type = "text/css" href="../css/jquery-ui.css"/>
+    <style>
+      
+    </style>
+    <script src = "jquery-3.5.1.min.js"></script> 
+    <script src="../js/jquery-ui.js"></script> <!--plugin-->
+    <script>
+        $(document).ready(function(){
+          $('#tabs').tabs({
+              event: 'mouseover'
+          });
+        })
+    </script>
+</head>
+<body>
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">생활뉴스</a></li>
+            <li><a href="#tabs-2">스포츠뉴스</a></li>
+            <li><a href="#tabs-3">경제뉴스</a></li>
+        </ul>
+        <div id="tabs-1">
+            <h3>셀프 홈케어 확산</h3>
+            <p>최근 가을철 건조한 날씨로 각질, 탄력저하, 트러블 등이 이어지면서 꼼꼼한 피부 관리를 위한 데일리 홈케어 제품이 인기를 끌고 있다. 또한 에센스나 토너가 패드에 적셔 있는 패드제품이 새로운 스킨케어 트렌드로 자리 잡으면서 소비자들로부터 큰 주목을 받고 있다.</p>
+        </div>
+        <div id="tabs-2">
+            <p>류현진·김광현, 추석 당일 나란히 선발 등판</p>
+            <p>조이뉴스24 류한준 기자] 가을야구에서 다시 한 번 '코리안 데이'가 성사됐다.
+
+                류현진(33, 토론토 블루제이스)과 김광현(32, 세인트루이스 카디널스)이 오는 10월 1일(이하 한국시간) 나란히 선발 등판한다. 이날은 추석 당일로 야구팬들에게는 더할 나위 없는 한가위 선물이 됐다.></p>
+            </p>
+        </div>
+        <div id="tabs-3">
+            <p>코로나19 재확산에 8월 생산·투자 감소</p>
+            <p>
+                소비는 7월 대비 3.0%↑…"코로나19 이전 수준 유지"
+                신종 코로나바이러스 감염증(코로나19)이 재확산하면서 광공업과 서비스업 생산이 나란히 감소하면서 산업생산이 3개월 만에 감소세로 돌아섰다. 소매판매는 기저효과와 가전제품 판매 증가 등의 영향으로 증가세로 전환했다.</p>
+        </div>
+    </div>
+</body>
+</html>
